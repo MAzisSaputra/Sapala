@@ -1,26 +1,41 @@
-.wrapper {
-    background-image: url(./Sapala1.jpeg);
-    height: 75vh;
-    color: white;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+html,
+body {
+	color: #fff;
+	margin: 0;
+	padding: 0;
 }
-.card-img-top {
-    width: 50px;
-    display: block;
-    margin: 0 auto;
+
+.app {
+	background-image: url(hellosapala.png);
+	background-position-x: 100%;
+	background-size: cover;
+	height: 100vh;
 }
-.card1 {
-    padding: 30px;
+.title-sapala {
+	margin-top: 150px;
 }
-.card {
-    padding: 30px;
-    background-color: #5ED3B6;
+
+@media (min-width: 576px) {
+	.app {
+		background-image: url(hellosapala.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+	}
+	.title-sapala {
+		margin-top: 200px;
+	}
 }
-.card-title {
-    text-align: center;
-}
-.card-text {
-    text-align: center;
+@media (min-width: 475px) {
+	.app {
+		background-image: url(hellosapala.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+	}
+	.title-sapala {
+		margin-top: 200px;
+	}
 }
